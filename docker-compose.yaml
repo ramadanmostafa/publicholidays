@@ -3,7 +3,7 @@ version: '3.7'
 services:
   command:
     build: .
-    command: python main.py
+    command: python main.py --country-code DE --max-num 20
     volumes:
       - .:/code
     depends_on:
